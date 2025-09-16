@@ -1,0 +1,62 @@
+[
+  {
+    "assessment_code": 162,
+    "assessment_type": "Pre Assessment",
+    "user_id": "OC9keG1h",
+    "assessment_result": {
+      "performance": 66.8,
+      "authenticity": 100,
+      "duration": "00:45:00",
+      "skills": [
+        {
+          "score": 66.8,
+          "threshold": 50,
+          "sub_skills": [
+            {
+              "sub_skill_code": "Data-Analytics-Basics",
+              "score": 40,
+              "threshold": 8.5,
+              "Weightage": 17,
+              "course_title": "Data Analytics using Pandas in Python - L1"
+            },
+            {
+              "sub_skill_code": "Python-Programming-Basics",
+              "score": 100,
+              "threshold": 8.5,
+              "Weightage": 17,
+              "course_title": "Python Programming - L1"
+            },
+            {
+              "sub_skill_code": "Data-Visualization-Basics",
+              "score": 80,
+              "threshold": 8.5,
+              "Weightage": 17,
+              "course_title": "Tableau Basics - L1"
+            },
+            {
+              "sub_skill_code": "SQL-Concepts",
+              "score": 60,
+              "threshold": 8.5,
+              "Weightage": 17,
+              "course_title": "No matching course found"
+            },
+            {
+              "sub_skill_code": "Pandas-Data-Management",
+              "score": 60,
+              "threshold": 8,
+              "Weightage": 16,
+              "course_title": "Data Analytics using Pandas in Python - L1"
+            },
+            {
+              "sub_skill_code": "Tableau-PowerBI-Basics",
+              "score": 60,
+              "threshold": 8,
+              "Weightage": 16,
+              "course_title": "Tableau Basics - L1"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
