@@ -1,14 +1,25 @@
-# Course Recommendation System
+Enhanced Course Recommendation System
+An intelligent course recommendation system that uses advanced machine learning techniques to provide personalized learning recommendations based on user skill assessments.
 
-This project implements an AI-based course recommendation system that matches user skill gaps, identified from JSON assessment data, with relevant courses stored in an Excel (XLSX) file. The system uses Python with libraries like pandas and scikit-learn to process data and provide personalized course recommendations.
+🚀 Features
+Core Capabilities
+Hybrid Recommendation Engine: Combines multiple recommendation strategies for optimal results
 
-## Overview
+Semantic Search: Uses SBERT (Sentence-BERT) embeddings for better understanding of course content
 
-The application analyzes a user's performance in various sub-skills (e.g., IoT basics, Python for IoT) from a JSON assessment file and compares these against a catalog of courses in an XLSX file. It identifies skill gaps where the user's score falls below a predefined benchmark and recommends the top three courses that address those gaps using a content-based filtering approach with TF-IDF and cosine similarity.
+Skill Gap Analysis: Identifies learning gaps from user assessment data
 
-## Features
+Progressive Learning: Recommends courses based on difficulty progression
 
-- **Data Loading**: Reads user assessment data from JSON and course data from XLSX files.
-- **Skill Gap Identification**: Detects sub-skills where the user performs below a configurable benchmark score (default: 70).
-- **Recommendation Engine**: Uses TF-IDF vectorization and cosine similarity to match skill gaps with course content.
-- **Output**: Provides a ranked list of the top three recommended courses with relevance scores.
+Domain-Based Filtering: Groups courses by technology domains (IoT, Data Science, Web Development, etc.)
+
+REST API: FastAPI-based API for easy integration
+
+Recommendation Strategies
+Skill-Based Recommendations (40% weight) - Addresses identified weak skills
+
+Domain-Based Recommendations (30% weight) - Strengthens weak technology domains
+
+Progressive Learning (20% weight) - Follows natural learning progression
+
+Complementary Skills (10% weight) - Suggests related technologies
